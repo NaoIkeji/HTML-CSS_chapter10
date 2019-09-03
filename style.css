@@ -22,6 +22,10 @@ main {
 	margin-right: 0;
 }
 
+.service-headline {
+	margin: 10px 0;
+}
+
 .step {
 	background-color: orange;
 	color: #fff;
@@ -58,3 +62,28 @@ main {
 }
 
 
+@media screen and (max-width:768px){
+	main {
+		width: 90%;
+	}
+
+	.service1, .service2, .service3 {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.service1-img, .service2-img, .service3-img {
+		width: 100%;
+		background-position: center;
+		height: 200px;
+	}
+
+	.service-text {
+		width: 100%;
+	}
+
+	.service3 {
+		margin-bottom: 0px;
+	}
+}
